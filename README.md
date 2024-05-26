@@ -1,4 +1,4 @@
-# Generalized Piecewise Mechanism and Its Enhancement for Collecting Multidimensional Data
+# Generalized Piecewise Mechanism (GPM) and Its Enhancement for Collecting Multidimensional Data
 
 
 
