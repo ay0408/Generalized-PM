@@ -1,6 +1,6 @@
 # Generalized Piecewise Mechanism (GPM) and Privacy-Optimized GPM for Collecting Multidimensional Data
 
-
+In Theoretical Comparison folder, we compared our GPM with the existing methods in terms of the variance of collected private values.
 
 ## Note
 
