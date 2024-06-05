@@ -1,0 +1,96 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2646,         88]
+NotebookOptionsPosition[      1991,         69]
+NotebookOutlinePosition[      2388,         85]
+CellTagsIndexPosition[      2345,         82]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+The original PM achieves a strictly smaller variance than the Laplace \
+Mechanism (LM).\
+\>", "Text",
+ CellChangeTimes->{{3.92571356746299*^9, 
+  3.925713643643044*^9}},ExpressionUUID->"ab43c4f8-df3e-47be-8753-\
+7cba7948d9d2"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Reduce", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"1", "/", 
+      RowBox[{"(", 
+       RowBox[{"x", "-", "1"}], ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"x", "+", "3"}], ")"}], "/", 
+      RowBox[{"(", 
+       RowBox[{"3", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"x", "-", "1"}], ")"}], "^", "2"}]}], ")"}]}]}], " ", ">=", 
+    " ", 
+    RowBox[{"2", "/", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"Log", "[", "x", "]"}], ")"}], "^", "2"}]}]}], ",", " ", "x"}],
+   "]"}]], "Input",
+ CellChangeTimes->{{3.925713405503787*^9, 3.92571340827396*^9}, {
+  3.925713501631587*^9, 3.925713535373151*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"1dc675ea-8333-432f-ba2c-5ebf729e72ed"],
+
+Cell[BoxData["False"], "Output",
+ CellChangeTimes->{3.9257135358612127`*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"f693190f-de18-41c6-aa6a-02652e77c3a9"]
+}, Open  ]],
+
+Cell["\<\
+Therefore, GPM achieves a strictly smaller variance than LM when x < y <= \
+x^(5/4).\
+\>", "Text",
+ CellChangeTimes->{{3.925713620622835*^9, 
+  3.925713661174745*^9}},ExpressionUUID->"a3a828ed-0007-4191-94ec-\
+9a1c3a5d7eed"]
+},
+WindowSize->{606, 738.75},
+WindowMargins->{{Automatic, 0.75}, {5.25, Automatic}},
+FrontEndVersion->"13.3 for Linux x86 (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"1237ceb2-c6ca-4cbb-9faf-079486f6b6c4"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 236, 6, 58, "Text",ExpressionUUID->"ab43c4f8-df3e-47be-8753-7cba7948d9d2"],
+Cell[CellGroupData[{
+Cell[819, 30, 762, 24, 31, "Input",ExpressionUUID->"1dc675ea-8333-432f-ba2c-5ebf729e72ed"],
+Cell[1584, 56, 154, 2, 33, "Output",ExpressionUUID->"f693190f-de18-41c6-aa6a-02652e77c3a9"]
+}, Open  ]],
+Cell[1753, 61, 234, 6, 58, "Text",ExpressionUUID->"a3a828ed-0007-4191-94ec-9a1c3a5d7eed"]
+}
+]
+*)
+
