@@ -4,6 +4,8 @@ In "Theoretical Comparison" folder, we compared our GPM with the existing method
 
 "Privacy Guarantees" folder contains the codes for evaluating the achieved privacy levels for the entire (multidimensinal) data, when the privacy level regarding each attribute information was respectively given.
 
+In "RunTime.ipynb", we measured the run time to solve the minimization problem for obtaining the optimized $P_v$ in our enhanced GPM.
+
 ## Note
 
 For details of our methods and discussion, please see our paper entitled "Generalization and Enhancement of Piecewise Mechanism for Collecting Multidimensional Data".
