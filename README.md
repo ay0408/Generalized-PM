@@ -6,6 +6,13 @@ In "Theoretical Comparison" folder, we compared our GPM with the existing method
 
 In "RunTime.ipynb", we measured the run time to solve the minimization problem for obtaining the optimized $P_v$ in our enhanced GPM.
 
+"Accuracy" folder 
+
+
+## Future Directions
+
+・ 
+
 ## Note
 
 For details of our methods and discussion, please see our paper entitled "Generalization and Enhancement of Piecewise Mechanism for Collecting Multidimensional Data".
