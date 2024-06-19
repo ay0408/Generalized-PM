@@ -4,7 +4,7 @@ In "Theoretical Comparison" folder, we compared our GPM with the existing method
 
 "Privacy Guarantees" folder contains the codes for evaluating the achieved privacy guarantees for the entire (multidimensinal) data, when the privacy level regarding each attribute information was respectively given.
 
-"Accuracy" folder provides the codes for evaluating the utility of our method using simulaton data, when the privacy budget for the entire data was given. (Our method allows more privacy budget to be distributed as each $\epsilon_i$ and achieves higher accuracy.)
+"Accuracy" folder provides the codes for evaluating the utility of our method using simulaton data and real data (from [IPUMS International](https://international.ipums.org/international/)), when the privacy budget for the entire data was given. (Our method allows more privacy budget to be distributed as each $\epsilon_i$ and achieves higher accuracy.)
 
 In "RunTime.ipynb", we measured the run time to solve the minimization problem for obtaining the optimized $P_v$ in our enhanced GPM.
 
