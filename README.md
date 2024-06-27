@@ -11,7 +11,7 @@ In "RunTime.ipynb", we measured the run time to solve the minimization problem f
 
 ## Future Directions
 
-・ Developing specialized methods for each analysis purpose, such as mean estimation and classification, with reference to the existing study [[Wang et al., 2019](https://doi.org/10.1109/ICDE.2019.00063)], while considering a hybrid mechanism.
+・ Developing specialized methods for each analysis purpose (e.g., mean estimation and classification) while considering a hybrid mechanism with reference to an existing study [[Wang et al., 2019](https://doi.org/10.1109/ICDE.2019.00063)].
 
 ・ Developing a method that allows random sampling or dimensionality reduction while setting the privacy level of each attribute information.
 
