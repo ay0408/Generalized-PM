@@ -13,6 +13,8 @@ In "RunTime.ipynb", we measured the run time to solve the minimization problem f
 
 ・ Developing specialized methods for each analysis purpose (e.g., mean estimation and classification) while considering a hybrid mechanism with reference to an existing study [[Wang et al., 2019](https://doi.org/10.1109/ICDE.2019.00063)].
 
+・ When the number of dimensions exceeds about $15$, the run time of our enhanced GPM will be out of a practical time frame (See Section V.C in our paper). To address this issue, more efficient algorithms or heuristic methods will be required. (cf. [Yamamoto and Shibuya, 2024](https://arxiv.org/abs/2402.07584))
+
 ・ Developing a method that allows random sampling or dimensionality reduction while setting the privacy level of each attribute information.
 
 ## Note
