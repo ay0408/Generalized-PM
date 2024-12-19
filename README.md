@@ -19,7 +19,7 @@ In "RunTime.ipynb", we measured the run time to solve the minimization problem f
 
 ## Note
 
-For details of our methods and discussion, please see our paper entitled "Generalization and Enhancement of Piecewise Mechanism for Collecting Multidimensional Data" presented at IEEE SpaCCS 2024.
+For details of our methods and discussion, please see our paper entitled "Generalization and Enhancement of Piecewise Mechanism for Collecting Multidimensional Data" presented at IEEE SpaCCS 2024 (IEEE Best Paper Award).
 
 ### Contact
 Akito Yamamoto
