@@ -16,6 +16,8 @@ In "RunTime.ipynb", we measured the run time to solve the minimization problem f
 
 ・ When the number of dimensions exceeds about $15$, the run time of our enhanced GPM will be out of a practical time frame (See Section V.C in our paper). To address this issue, more efficient algorithms or heuristic methods will be required. (cf. [Yamamoto and Shibuya, 2024](https://arxiv.org/abs/2402.07584))
 
+・Considering cases where the dimensions are not independent. ← The number of constraints on privacy levels might increase, the dimensionality might be reduced, or the computational complexity for finding $P_v$ might be varied.
+
 ・ Developing a method that allows random sampling or dimensionality reduction while setting the privacy level of each attribute information.
 
 ## Note
