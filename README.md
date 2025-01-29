@@ -24,6 +24,14 @@ In "RunTime.ipynb", we measured the run time to solve the minimization problem f
 
 For details of our methods and discussion, please see our paper entitled "Generalization and Enhancement of Piecewise Mechanism for Collecting Multidimensional Data" presented at IEEE SpaCCS 2024.
 
+Errata:  
+・In Lemma 2's proof,  
+$Var[t^*] = \cdots = \frac{q}{3} \cdot (R(t)^3 - L(t)^3) + \cdots$  
+should be  
+
+$Var[t^*] = \cdots = \frac{q}{3} \cdot \left( 1 - \frac{1}{e^{\epsilon}} \right) \cdot (R(t)^3 - L(t)^3) + \cdots.$  
+(This is a typo, and no modification of the resulting value is required.)
+
 ### Contact
 Akito Yamamoto
 
