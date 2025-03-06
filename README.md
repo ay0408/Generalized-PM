@@ -1,6 +1,10 @@
 # Generalized Piecewise Mechanism (GPM) and Privacy-Optimized GPM for Collecting Multidimensional Data
 
-In "Theoretical Comparison" folder, we compared our GPM with the existing methods in terms of the variance of collected private values.
+We propose a generalized piecewise mechanim (GPM) that achieves a truly smaller variance of the collected private values than the original one, for any input numeric value and privacy budget.
+
+In "Theoretical Comparison" folder, we compared the GPM with the existing methods in terms of the variance of collected private values.
+
+Furthermre, we enhance the GPM for collecting multidimensional numeric data. Under a situation in which each attribute information is assigned its own privacy level, the proposed method achieves the optimal, that is, the strongest privacy guarantees for the entire dataset. Notably, our method does not involve random sampling and stores all information in the original data, making it highly advisable for data collection without specifying the analysis purpose.
 
 "Privacy Guarantees" folder contains the codes for evaluating the achieved privacy guarantees for the entire (multidimensinal) data, when the privacy level regarding each attribute information was respectively given.
 
