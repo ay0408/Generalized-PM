@@ -26,7 +26,7 @@ In "RunTime.ipynb", we measured the run time to solve the minimization problem f
 
 ## Note
 
-For details of our methods and discussion, please see our paper entitled "Generalization and Enhancement of Piecewise Mechanism for Collecting Multidimensional Data" presented at IEEE SpaCCS 2024.  
+For details of our methods and discussion, please see our paper entitled "Generalization and Enhancement of Piecewise Mechanism for Collecting Multidimensional Data" (https://doi.org/10.1109/SpaCCS63173.2024.00009) presented at IEEE SpaCCS 2024.  
 (cf. [Privacy-Optimized Randomized Response](https://github.com/ay0408/Optimized-RR))
 
 Errata:  
